@@ -3,6 +3,17 @@ import './Banner.css'
 
 
 export default function Banner() {
+
+    function shortDes(s, n) {
+       
+        if (s.length > n) {
+            return `${s.substring(n)} ...`;
+        } else {
+            return s;
+        }
+        
+    }
+
     return (
         <header className='banner' style={{
             backgroundSize: "cover",
@@ -19,10 +30,12 @@ export default function Banner() {
                 </div>
 
                 <p className='banner_discription'>
-                    this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.
+                    {shortDes(`this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.this is bannner deis.`, 150)}
                 </p>
                 
             </div>
+
+            <div className='banner__fadeEffect' />
         </header>
     )
 }
