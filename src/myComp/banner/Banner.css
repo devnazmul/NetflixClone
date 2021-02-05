@@ -1,0 +1,12 @@
+.banner{
+    position: relative;
+    height: 448px;
+    color: #fff;
+    object-fit: contain;
+}
+.banner_contant{
+    width: 500px;
+}
+.banner_title{
+    
+}
