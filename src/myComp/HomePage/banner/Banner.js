@@ -1,7 +1,7 @@
-import instance from '../../axios';
+import instance from '../../../axios';
 import React, { useState, useEffect } from 'react'
 import './Banner.css'
-import requests from '../../Request'
+import requests from '../../../Request'
 
 
 export default function Banner() {

@@ -3,7 +3,7 @@ import Banner from './banner/Banner'
 import './HomeScreen.css'
 import Nav from './nav/Nav'
 import Row from './Row/Row'
-import requests from '../Request'
+import requests from '../../Request'
 
 
 export default function HomeScreen() {
