@@ -14,6 +14,7 @@ export default function HomeScreen() {
             <Row 
                 title = 'NETFLIX ORIGINALS'
                 fetchUrl = {requests.fetchNetflixOriginials}
+                isLargeRow
             />
             <Row 
                 title = 'Tranding Now'
