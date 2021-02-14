@@ -1,0 +1,88 @@
+.login{
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/538717c0-f271-40e9-a99e-b07f9c521322/1b4054cd-e5f5-40a8-88d3-09428654d5ff/BD-en-20210201-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+.nav_bar{
+    margin: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+.nav_logo{
+    height: 100px;
+    object-fit:contain;
+    cursor: pointer;
+}
+.signin_btn{
+    background-color: #e50914;
+    border: none;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+}
+.login_bg_gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0.0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.login_hero_content_container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.login_hero_content{
+   
+    color: #fff;
+    max-width: 600px;
+    display: flex;
+    min-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login_hero_content h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+.login_hero_content p{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.hero_login_input{
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.hero_login_btn{
+    font-size: 1.1rem;
+    background-color: #e50914;
+    border: none;
+    padding: 10px 30px;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}

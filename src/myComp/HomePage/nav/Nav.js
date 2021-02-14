@@ -23,7 +23,7 @@ export default function Nav() {
             <div className='nav_bar'>
                 <img className='nav_logo' src='https://i2.wp.com/freepngimages.com/wp-content/uploads/2016/10/netflix-logo.png?fit=624%2C390' alt='netflix-logo' />
                 <img className='nav_avater' src='https://icons.iconarchive.com/icons/papirus-team/papirus-status/512/avatar-default-icon.png' alt='avater' />
-            </div>
+            </div> 
         </div>
     )
 }
